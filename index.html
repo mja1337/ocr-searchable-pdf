@@ -200,7 +200,7 @@
                   setStatus(`Page ${i}/${lastPage}: ${m.status} (${Math.round(m.progress * 100)}%)`, ((i - 1 + m.progress) / Math.max(1, lastPage)) * 100);
                 }
               },
-              langPath: 'https://tessdata.projectnaptha.com/5',
+              langPath: 'https://cdn.jsdelivr.net/npm/tesseract.js-core@5.0.0/lang-data',
               // AUTO handles mixed layouts (headings + table listings) better than SINGLE_BLOCK in many cases
               tessedit_pageseg_mode: 3, // PSM.AUTO
               preserve_interword_spaces: '0'
